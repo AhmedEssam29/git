@@ -85,9 +85,9 @@ And to identify the integrated parameters, they use a statistical test called th
 > ![image](https://drive.google.com/uc?export=view&id=1t57Teb0kQK5lHSm_3ZXugbvjc4Ziw9Fq)<br>
 > Figure 2: the change due to the pooling layer<br>
 ## Why LSTM at time series?
-> LSTM (Long Short-Term Memory) networks have the ability to learn long-term dependencies, especially, in a sequence prediction problem as time series, LSTM has outstanding performance on a large variety of data.
-> <br><center>![image](https://drive.google.com/uc?export=view&id=1rX81D0b-WLr3MhiebNlPS9NIASQEHps1)</center>
-> <br>**Important Note:** The Bidirectional LSTM can learn in both direction forward and backward sequences, also the Bidirectional has complete information about all the points in the data.
+ LSTM (Long Short-Term Memory) networks have the ability to learn long-term dependencies, especially, in a sequence prediction problem as time series, LSTM has outstanding performance on a large variety of data.
+ ![image](https://drive.google.com/uc?export=view&id=1rX81D0b-WLr3MhiebNlPS9NIASQEHps1)
+**Important Note:** The Bidirectional LSTM can learn in both direction forward and backward sequences, also the Bidirectional has complete information about all the points in the data.
 ## Methodology
 ### The Project Structure
 
@@ -96,7 +96,10 @@ And to identify the integrated parameters, they use a statistical test called th
 
 ![image](https://drive.google.com/uc?export=view&id=1hPsfWegCG_W3i7TLZdarArxuD9dVNd0w)
 
-![image](https://i.ibb.co/N1kNsgk/my-project-1.png)88**As Shown at the above figure,** our project has thirteen stages:
+![image](https://i.ibb.co/N1kNsgk/my-project-1.png)
+
+
+**As Shown at the above figure,** our project has thirteen stages:
 - loading data 
 - importing libraries
 - apply Preprocessing 
@@ -120,7 +123,6 @@ And to identify the integrated parameters, they use a statistical test called th
 The Stock Data:  We downloaded the stock data of FAANG companies ( Meta, Apple, Netflix, Amazon, Google) in Spreadsheet from Yahoo Finance website from September 30st, 2021 to September 30th, 2022.
 
 
-![image](https://i.ibb.co/N1kNsgk/my-project-1.png)
 
 ![image](https://i.ibb.co/DbjhpdL/Picture1.png)### Data Preprocessing
 > After scrapping the tweets, it was uncleaned text. So, we go through a cleaning process as shown:
