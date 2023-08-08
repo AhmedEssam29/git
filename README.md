@@ -166,35 +166,50 @@ The polarity score was converted into three values;1, 0, and -1 for each class a
 
 #### **_ARIMA Preparation:_**
 The input of the library should be in the form of y (predicted output) and X (features) as shown:
+
 ![image](https://i.ibb.co/JCJjywf/ARIMa.png)
+
 Open, High, Low, Close, Adj Close, Volume, P_mean, P_sum, twt_count should be mapped to the Open and Close of the next data to be considered as the prediction.
 
-and the testinf accuracy was 
+and the testing accuracy was
+
+
 ![image](https://i.ibb.co/kmSnbtG/Sick.png)
 
 #### **_ARIMA Preparation:_**
 The input of the library should be in the form of y (predicted output) and X (features) as shown:
+
 ![image](https://i.ibb.co/JCJjywf/ARIMa.png)
+
 Open, High, Low, Close, Adj Close, Volume, P_mean, P_sum, twt_count should be mapped to the Open and Close of the next data to be considered as the prediction.
 
-and the testinf accuracy was 
+and the testing accuracy was
+
+
 ![image](https://i.ibb.co/kmSnbtG/Sick.png)
 
 #### **_ARIMA Preparation:_**
 The input of the library should be in the form of y (predicted output) and X (features) as shown:
+
 ![image](https://i.ibb.co/JCJjywf/ARIMa.png)
+
 Open, High, Low, Close, Adj Close, Volume, P_mean, P_sum, twt_count should be mapped to the Open and Close of the next data to be considered as the prediction.
 
-and the testinf accuracy was 
+and the testing accuracy was
+
+
 ![image](https://i.ibb.co/kmSnbtG/Sick.png)
 
 #### **_CNN-LSTM Preparation:_**
 In the time series problems with deep learning, the dataset should be reshaped to features and the target. The features consist of the number of previous days we look at and the target consists of the predicted future days and the number of predicted features. The dataset for this project is 1128 samples and the look-back days are 5 days, and the number of features is 7, so the features will be reshaped to (1118,5,7) and if the number of future days is 1 and the predicted features are 2 so the shape will be (1118,1,2).
 The shape of features without the Twitter sentiment analysis is (1118,5,6). The last 5 days were dropped because they don’t have target value.
+
 ![image](https://i.ibb.co/M2DKqg8/LSTM.png)
 
 
 **RESULTS**
+
+
 ![image](https://i.ibb.co/BTztx86/results.png)
 ### Conclusion
  While we compared the results of the two models we found:
